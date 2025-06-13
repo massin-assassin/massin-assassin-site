@@ -2,8 +2,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function HomePage() {
+export default function Home() {
   return (
+    <main>
+      <h1>Welcome to The Massin Assassin 🎣</h1>
+      <p>Your custom fishing lures are just a cast away.</p>
+    </main>
+  );
+} 
     <main className="min-h-screen bg-blue-50 text-gray-800 p-4 sm:p-6 md:p-8">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-6 text-center sm:text-left">
